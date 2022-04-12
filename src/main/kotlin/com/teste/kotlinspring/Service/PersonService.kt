@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service
 
 @Service
 class PersonService (
-    @Autowired
     val personRepository: PersonRepository
 ) {
 
